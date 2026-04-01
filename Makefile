@@ -55,3 +55,6 @@ port-forward:
 
 port-close:
 	@docker compose down ${container_port}
+
+todoapp-run:
+	@go run cmd/todoapp/main.go
